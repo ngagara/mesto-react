@@ -1,12 +1,13 @@
 import React from 'react';
 import closeImage from '../images/close.svg'
 
-function ImagePopup() {
+function ImagePopup({isSelectedCard, onClose, isOpen}) {
+  console.log(isSelectedCard);
   return (
-    <div className="popup popup_image">
+    <div className={`popup popup_image ${isOpen ? 'popup_is-opened' : ''}`}>
       <div className="popup__conteiner">
-        <img className="popup__picture"/>
-        <img src={closeImage} alt="" className="popup__close"/>
+        <img className="popup__picture" src={isSelectedCard}/>
+        <img src={closeImage} alt="" className="popup__close" onClick={onClose}/>
       </div>
     </div>
   );
