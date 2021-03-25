@@ -4,9 +4,10 @@
 @import url(./__description/place-card__description.css);
 @import url(./__name/place-card__name.css);
 @import url(./__like-icon/place-card__like-icon.css);
+@import url(./__counter/place-card__counter.css);
 
 .place-card {
-  width: 282px;
+  width: 260px;
   background-color: #fff;
   border-radius: 10px;
   min-height: 360px;

@@ -2,7 +2,6 @@ import React from 'react';
 import closeImage from '../images/close.svg'
 
 function ImagePopup({isSelectedCard, onClose, isOpen}) {
-  console.log(isSelectedCard);
   return (
     <div className={`popup popup_image ${isOpen ? 'popup_is-opened' : ''}`}>
       <div className="popup__conteiner">
