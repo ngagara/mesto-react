@@ -2,8 +2,6 @@
 
 Технологии :
     Function React Component
-    React Router
-    Firebase
     Reat API
     React Hooks
     React Context
